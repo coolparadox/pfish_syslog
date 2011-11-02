@@ -1,4 +1,7 @@
 #!/bin/sh
 
-AUTOMAKE='automake --foreign' autoreconf -v --install
+set -x
+
+mkdir -p 'm4'
+autoreconf -v --install
 

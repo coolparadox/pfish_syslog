@@ -1,5 +1,7 @@
 ## Process this file with automake to produce Makefile.in
 
+ACLOCAL_AMFLAGS = -I m4
+
 nobase_include_HEADERS = pilot_fish/syslog.h pilot_fish/syslog_macros.h
 
 lib_LTLIBRARIES = libpfish_syslog.la

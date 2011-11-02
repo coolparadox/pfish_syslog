@@ -1,15 +1,16 @@
 #                                               -*- Autoconf -*-
 # Process this file with autoconf to produce a configure script.
 
-AC_PREREQ(2.61)
+AC_PREREQ(2.68)
 
-AC_INIT([pfish_syslog], [0.0], [<starcrusher2202@gmail.com>])
-AM_INIT_AUTOMAKE([1.10],[foreign],[dist-bzip2])
+AC_INIT([pfish_syslog], [0.0], [http:github.com/coolparadox])
 
+AC_CONFIG_MACRO_DIR([m4])
 AC_CONFIG_SRCDIR([pilot_fish/syslog.h])
 AC_CONFIG_HEADER([config.h])
 
-# Compile only as shared library.
+AM_INIT_AUTOMAKE
+
 AC_DISABLE_STATIC
 AC_PROG_LIBTOOL
 
