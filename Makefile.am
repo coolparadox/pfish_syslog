@@ -16,4 +16,8 @@ pfish_syslog_library_info_LDADD = -lpfish_syslog
 pfish_logger_SOURCES = logger.c
 pfish_logger_LDADD = -lpfish_syslog
 
-MAINTAINERCLEANFILES = Makefile.in aclocal.m4 config.guess config.sub config.h.in configure depcomp install-sh missing ltmain.sh *~ *.tar.*
+MAINTAINERCLEANFILES = INSTALL Makefile.in aclocal.m4 config.guess config.sub config.h.in configure depcomp install-sh missing ltmain.sh *~ *.tar.*
+
+maintainer-clean-local:
+	-rm -rf m4
+
