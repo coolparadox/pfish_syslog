@@ -2,4 +2,4 @@ pilot_fish/syslog is a C wrapper library around syslog(3).
 It also contains a CLI exerciser so it can be used by scripts.
 
 Rafael Lorandi
-http://github.com/coolparadox
+http://coolparadox.github.com

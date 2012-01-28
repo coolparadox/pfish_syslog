@@ -3,7 +3,7 @@
 
 AC_PREREQ(2.68)
 
-AC_INIT([pfish_syslog], [0.0], [http:github.com/coolparadox])
+AC_INIT([pfish_syslog], [0.0], [http://github.com/coolparadox/pfish_syslog/issues])
 
 AC_CONFIG_MACRO_DIR([m4])
 AC_CONFIG_SRCDIR([pilot_fish/syslog.h])
